@@ -1,0 +1,33 @@
+=
+   <table border="2" width="90%" cellspacing="10" cellpadding="10" vsides="12" frame="box" align="center">
+    <thead>
+        
+        <caption><strong>Quartely sales report(INR)</caption></strong></caption>
+        <tr bgcolor="grey">
+            <th>Category</th>
+            <th>Product</th>
+            <th >Q1 Sales</th>
+            <th >Q2 Sales</th>
+        </tr>
+         </thead>
+         <tbody>
+        <tr>
+            <td rowspan="2" valign="top">Electronics</td>
+            <td bgcolor="lightgrey">Smartphones</td>
+            <td bgcolor="lightgrey" align="right">Rs 4,72,450</td>
+            <td bgcolor="lightgrey" align="right">Rs 5,85,838</td>
+        </tr>
+        <tr >
+            <td bgcolor="lightgrey">Laptops</td>
+            <td bgcolor="lightgrey" align="right">Rs 8,03,165</td>
+            <td bgcolor="lightgrey" align="right">Rs 8,59,859</td>
+        </tr>
+        <tr bgcolor="lightgrey">
+            <th colspan="2" align="left">Total Gross</th>
+            <td bgcolor="lightgrey" align="right">Rs 12,75,615</td>
+            <td bgcolor="lightgrey" align="right">Rs 14,45,697</td>
+        </tr>
+        </tbody>
+   
+</table>
+</body>

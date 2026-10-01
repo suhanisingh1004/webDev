@@ -6,16 +6,44 @@
     <title>Forms</title>
 </head>
 <body>
+  <h2>Sign Up</h2>
+  <p>Please fill this form to create an account.</p>
+  <hr>
  <form action="/action_page.php">
 
     <!-- Label and Input for users -->
-  <label for="fname">First name:</label><br>
-  <input type="text" id="fname" name="fname" value="John"><br>
-  <!-- label and input for last name -->
-  <label for="lname">Last name:</label><br>
-  <input type="text" id="lname" name="lname" value="Doe"><br><br>
-  <!-- button to submit the form -->
-  <input type="submit" value="Submit">
+  <label for="Email">Email:</label><br>
+  <input type="text" id="Email" name="Email" value="Enter Email"><br>
+  <hr>
+  <label for="Password">Password:</label><br>
+  <input type="text" id="Password" name="Password" value="Enter Password"><br>
+  <hr>
+  <label for="Repeat Password">Repeat Password:</label><br>
+  <input type="text" id="Repeat Password" name="Repeat Password" value="Repeat Password"><br>
+  <hr>
+  <label for="Contact Number">Contact Number:</label><br>
+  <input type="text" id="Contact Number" name="Contact Number" value="Enter Contact Number"><br>
+  <hr>
+  <label for="Date of Birth">Date of Birth:</label><br>
+  <input type="date" id="Date of Birth" name="Date of Birth" placeholder="Enter Date of Birth"><br>
+  <hr>
+  <label for="Gender">Gender:</label><br>
+  <input type="radio" id="Male" name="Gender" value="Male">
+  <label for="Male">Male</label><br>
+  <input type="radio" id="Female" name="Gender" value="Female">
+  <label for="Female">Female</label><br>
+  <input type="radio" id="Other" name="Gender" value="Other">
+  <label for="Other">Other</label><br>
+  <hr>
+  <label for="remember me">Remember me</label>
+  <input type="checkbox" id="remember me" name="remember me" value="remember me">
+  <hr>
+  By creating an account you agree to our <a href="#">Terms & Privacy</a>.
+  
+   <input type="submit" value="Cancel">
+   <br
+  <input type="submit" value="Sign Up">
+
 </form>
 </body>
 </html>

@@ -24,12 +24,18 @@
             font-size: 20px;
         }
         .box{
-            width: 200px;
+            width: 300px;
             height: 100px;
             border: 2px solid black;
             padding: 20px;
             margin: 20px;
             box-sizing: border-box;
+        }
+        div  p {
+            color:yellow;
+        }
+        div + div p {
+            color: red;
         }
     </style>
 
@@ -40,6 +46,15 @@
     <p id="intro" class="note">This is a simple paragraph to demonstrate CSS styling.</p>
     <p>This is another paragraph to show different styling.</p>
     <p id="intro" class="note">lore ipsum dolor sit amet , consectetur adipiscing elit.velit. </p>
+    <div>
+        <p>Hello World</p>
+        <div>
+            <p>My college name is Mirai School Of Technology</p>
+            <strong><p>Suhani Kumari Singh</p></strong>
+        </div>
+        <p>Suhaniiiiiiiiiiii</p>
+    </div>
+    <p>Hello World</p>
 </body>
 <!-- <p>id has more prefernce than class</p> -->
 <!-- <p>Important overrides each tags with these no preference order matters</p> -->

@@ -1,33 +1,47 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="styles.css">
     <style>
-		 p {
-			color: rgb(240, 30, 30);
-			font-size: 20px
-		}
-
-		#intro {
-			color: purple;
+        p {
+            color: rgb(240, 30, 30);
             font-size: 20px;
-			
-		}
+            border: 1px solid pink;
+        }
 
-		.note {
-			color:aqua
-		}
-        </style>
+        #intro {
+            color: purple;
+            font-size: 20px;
+
+        }
+
+        .note {
+            color: rgb(92, 70, 205) !important;
+            font-size: 20px;
+        }
+        .box{
+            width: 200px;
+            height: 100px;
+            border: 2px solid black;
+            padding: 20px;
+            margin: 20px;
+            box-sizing: border-box;
+        }
+    </style>
 
 </head>
+
 <body>
-    <h1 style="color: black; font-size: 30px;">Learning Css</h1>
+    <h1 class="box">Learning Css</h1>
     <p id="intro" class="note">This is a simple paragraph to demonstrate CSS styling.</p>
     <p>This is another paragraph to show different styling.</p>
     <p id="intro" class="note">lore ipsum dolor sit amet , consectetur adipiscing elit.velit. </p>
 </body>
 <!-- <p>id has more prefernce than class</p> -->
+<!-- <p>Important overrides each tags with these no preference order matters</p> -->
+
 </html>
